@@ -1,77 +1,57 @@
 {
     "metaDataVersion": "1.0.0",
-    "category": "com.microchip.mplabx.project",
+    "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.0.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
         "version": "1.75.2",
         "displayName": "Hello World",
-        "projectName": "hello_world",
-        "mplabxVersionRange": "^5.20",
-        "shortDescription": "A really brilliant example project showing off UART capabilities on a ATiny817.",
+        "projectName": "PIC18F47Q10-hello-world",
+        "shortDescription": "A great starting point for getting your Curiosity nano board running",
+        "ide": {
+            "name": "Atmel Studio",
+            "semverRange": ">=5.30.0"
+        },
+        "compiler": {
+            "name": "XC8",
+            "semverRange": "^5.30"
+        },
+        "dfp": {
+            "name": "PIC18F47Q10_DFP",
+            "semverRange": "^1.3.222"
+        },
+        "configurator": {
+            "name": "Atmel START",
+            "semverRange": ">=3.75"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47Q10",
+                "versionRange": "*"
+            }
+        },
+        "author": "Anne Other",
+        "peripherals": [
+            "ADC"
+        ],
+        "keywords": [
+            "LED",
+            "GPIO"
+        ]
+    },
+    "additionalData": {
         "longDescription": {
             "metaDataVersion": "1.0.0",
             "category": "com.microchip.portal.fileRef",
             "content": {
                 "metaDataVersion": "1.0.0",
-                "file": "usefulHelpFile.html",
-                "mime": "text/html"
-            }
-        },
-        "configurations": [
-        {
-            "device": {
-                "name": "PIC18F47Q10",
-                "dfp": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.portal.contentRef",
-                    "content": {
-                        "metaDataVersion": "1.0.0",
-                        "category": "com.microchip.mplabx.dfp",
-                        "name": "ATtiny_DFP",
-                        "versionRange": "^1.3.222"
-                    }
-                }
-            },
-            "compiler": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.contentRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.mplabx.compiler",
-                    "name": "XC8",
-                    "versionRange": "^1.33"
-                }
-            }
-        },
-        {
-            "device": {
-                "name": "PIC16LF18456",
-                "dfp": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.portal.contentRef",
-                    "content": {
-                        "metaDataVersion": "1.0.0",
-                        "category": "com.microchip.mplabx.dfp",
-                        "name": "PIC18Fxxxx_DFP",
-                        "versionRange": "^1.0.9"
-                    }
-                }
-            },
-            "compiler": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.contentRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.mplabx.compiler",
-                    "name": "XC8",
-                    "versionRange": "^2.05"
-                }
+                "fileName": "./README.md",
+                "mimeType": "text/markdown"
             }
         }
-		],
-        "board": "Curiosity",
-        "publisher": "Microchip",
-        "tags": ["LED", "GPIO"]
     }
 }

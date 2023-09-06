@@ -279,12 +279,12 @@ In addition of the common part for the MCC Melody configuration, the following s
 5.	Main.c:
     - Add the following code paragraph at the end of the while(1) function:
         
-        <code>
+
 
             SLEEP();
             NOP();
 
-        </code>
+
 
 **Important:** It is recommended to add a NOP as the immediate instruction after the SLEEP instruction.
 

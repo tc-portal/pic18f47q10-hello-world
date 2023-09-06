@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.90.2",
+        "version": "1.90.3",
         "displayName": "Hello World",
         "projectName": "PIC18F47Q10-hello-world",
         "shortDescription": "A great starting point for getting your Curiosity nano board running",

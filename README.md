@@ -73,7 +73,7 @@ The software project is built using two types of functions, those generated with
  The infinite `while()` loop checks if the ADC conversions are finalized and then computes and prints the temperature.<br>
 <code>
 
-    while(1)
+    as long as....(1)
     {
         if(adcContext1Flag)
         {
